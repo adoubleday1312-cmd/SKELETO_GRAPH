@@ -1,5 +1,5 @@
 
-## Skeletograph
+# Skeletograph
 
 This package is a tool for osteoarchaeologists, bioarchaeologists, anthropologists and archaeologists alike to plot skeletal observations onto a standard anterior-view human skeleton (currently a biological male). This package is inspired by the brilliant work of Maag et al. (2018) - the creator of gganatogram. This package differs from gganatogram as it is created through a bone accessioning scheme for palaeopathology, trauma, entheseal change, and taphonomic modification recording, with two separate plotting modes:
 
@@ -8,13 +8,13 @@ This package is a tool for osteoarchaeologists, bioarchaeologists, anthropologis
 2. Population-level heatmap (skeletograph_heatmap()) -- aggregate observations across many individuals into a per-bone average, coloured as a continuous gradient.
 
 
-## An example using simulated data:
+# An example using simulated data:
 <img width="1794" height="1163" alt="image" src="https://github.com/user-attachments/assets/40cf05f7-bdef-4a5e-9e7d-3d40f1483f5e" />
 
 You can remake this graph exactly using the "dummy" data spreadsheet available in the files, and following the rest of the scripting instructions below.
 
 
-## Installation
+# Installation
 
 This package is local to this repository only, and is not available on CRAN. Install the package from the source directory:
 
@@ -23,7 +23,7 @@ install.packages("devtools")
 library(devtools)
 devtools::install()
 ```
-# or, for iterative development:
+## or, for iterative development:
 ```r
 devtools::load_all()
 Quick start
