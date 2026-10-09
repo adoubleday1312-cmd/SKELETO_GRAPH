@@ -1,0 +1,15 @@
+# Generated manually (no roxygen run in this environment -- once you have R
+# set up, running devtools::document() will regenerate this from the
+# roxygen comments in R/*.R and should produce the same exports).
+
+export(category_colors)
+export(category_shapes)
+export(list_bones)
+export(plot_skeleton_base)
+export(resolve_location)
+export(skeletograph_heatmap)
+export(skeletograph_points)
+export(skeletograph_vocabulary)
+export(read_skeletograph_data)
+export(reshape_population_wide)
+

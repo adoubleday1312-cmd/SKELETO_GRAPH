@@ -1,0 +1,27 @@
+Package: skeletograph
+Title: Anatomically-Located Skeletal Observation Plots
+Version: 0.0.1
+Authors@R: person("Alexandra"", "Doubleday", email = "a.doubleday1312@gmail.com", role = c("aut", "cre"))
+Description: Plots individual palaeopathology, trauma, entheseal change, and
+    taphonomic observations onto a standard anterior-view human skeleton
+    diagram at anatomically-specified locations (e.g. "midshaft, lateral
+    femur"), and separately aggregates observations across a skeletal
+    population into per-element heatmaps. Built on ggplot2, in the spirit
+    of gganatogram but for the skeleton and for bioarchaeological recording
+    categories.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    ggplot2 (>= 3.4.0),
+    utils,
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    MetBrewer
+    readxl
+Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Config/roxygen2/version: 8.1.0
