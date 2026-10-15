@@ -283,7 +283,7 @@ skeletograph_add_info(
   age = "35-45 years",
   stature = "158 ± 4 cm"
 )
-```r
+```
 Make sure you change the details above to the details of your individual!
 
 
