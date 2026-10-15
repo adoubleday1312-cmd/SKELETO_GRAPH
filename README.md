@@ -289,6 +289,9 @@ skeletograph_points(observations) # surface carried through, unused
 resolved <- resolve_location("femur_R", "midshaft", "lateral", surface = "posterior")
 Adding a true posterior-view skeleton later is the natural way to resolve this properly -- see data-raw/ for how the current SVG was accessioned, which is the template for tracing/accessioning a posterior plate the same way.
 
+# Feedback, features and requests: 
+I am very open to feedback, and would love to hear your thoughts on the software - As this is the first R package that I have ever built, this world and the relevant processes, approaches, methods etc are quite foreign! Equally if there is a feature that doesn't currently exist that would benefit your specific niche, discipline, field or even general interest, please send me a message by using the Issues and Discussion section of the repository. 
+
 # Citation
 
 If you use this package in published research, please cite:
