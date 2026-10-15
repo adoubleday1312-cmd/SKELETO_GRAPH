@@ -267,6 +267,26 @@ skeletograph_points(observations, colors = c(
 ```
 
 To see all of the colour combinations for the base categories (entheseal_change, palaeopathology, taphonomy and trauma) see the folder in the file directory titled "All colour combinations"
+## Want to add osteobiographical information about your individual directly onto the plot? 
+
+Use the below feature to include a box which has information about the individual
+```r
+install.packages("patchwork")
+library("patchwork")
+p <- plot_skeleton_base() + skeletograph_points(obs)
+
+skeletograph_add_info(
+  p,
+  individual = 12,
+  context = c("Grave 4", "Trench B", "Site X"),
+  sex = "Probable female",
+  age = "35-45 years",
+  stature = "158 ± 4 cm"
+)
+```r
+Make sure you change the details above to the details of your individual!
+
+
 ## Want to graph multiple skeletons together?
 
 ```r
