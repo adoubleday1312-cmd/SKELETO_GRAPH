@@ -1,6 +1,17 @@
 # Skeletograph
 
-This package is a tool for osteoarchaeologists, bioarchaeologists, anthropologists and archaeologists alike to plot skeletal observations onto a standard anterior-view human skeleton (currently a biological male). This package is inspired by the brilliant work of Maag et al. (2018) - the creator of gganatogram. This package differs from gganatogram as it is created through a bone accessioning scheme for palaeopathology, trauma, entheseal change, and taphonomic modification recording, with two separate plotting modes:
+This package is a tool for osteoarchaeologists, bioarchaeologists, anthropologists and archaeologists alike to plot skeletal observations onto an anterior-view human skeleton (currently a biological male - but working on other iterations!). This package is inspired by the brilliant work of Maag et al. (2018) - the creator of gganatogram. 
+
+# Citation
+
+Any use of this package must include citation to this page. If you use this package in published research, please cite:
+
+[AJ Doubleday] (2026). Skeletograph: Software for element based observation plotting for palaeopathology, trauma and taphonomy for R. https://github.com/adoubleday1312-cmd/Skeletograph
+
+
+# So how do you use it?
+
+This package differs from gganatogram as it is created through a bone accessioning scheme for palaeopathology, trauma, entheseal change, and taphonomic modification recording, with two separate plotting modes:
 
 1. Individual observations (skeletograph_points()) -- plot specific lesions/marks at anatomically-described locations (e.g. "midshaft, lateral femur"), one point per observation, shaped by category.
 
@@ -312,11 +323,6 @@ Adding a true posterior-view skeleton later is the natural way to resolve this p
 # Feedback, features and requests: 
 I am very open to feedback, and would love to hear your thoughts on the software - As this is the first R package that I have ever built, this world and the relevant processes, approaches, methods etc are quite foreign! Equally if there is a feature that doesn't currently exist that would benefit your specific niche, discipline, field or even general interest, please send me a message by using the Issues and Discussion section of the repository. 
 
-# Citation
-
-If you use this package in published research, please cite:
-
-[AJ Doubleday] (2026). Skeletograph: Software for element based observation plotting for palaeopathology, trauma and taphonomy for R. https://github.com/adoubleday1312-cmd/Skeletograph
 
 # License
 
